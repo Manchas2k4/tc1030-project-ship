@@ -114,6 +114,8 @@ La clase cuenta con los siguientes métodos:
 * `void incomingShip(SimpleShip *ship)`: Si la nave no se encuentra ya en el puerto, la agrega a la lista de naves que actualmente están en el puerto.
 * `void outgoingShip(SimpleShip *ship)`: Sólo se debe ejecutar si la nave se encuentra en el puerto. Remueva la nave de la lista de naves que actualmente están en el puerto y, si la nave no se encuentra en la lista de naves que han estado en el puerto, la agrega.
 * `bool contains(Container *container)`: Regresa `true`, si el contenedor se encuentra en el puerto.
+* `void add(Container *container)` : Agrega el nuevo contenedor a la lista de contenedores del puerto.
+* `void remove(Container *container)` : Remueve el contenedor de la lista de contenedores del puerto.
 * `std::string toString() const`: Regresa un string con el siguiente formato: "Port #id : (x, y)", en seguido la lista de contendores lígeros, pesados, refrigerados y líquidos que hay en el puerto. A continuación, despliega las naves que se encuentra en el puerto (**VER LOS EJEMPLOS DE SALIDA**).
 
 #### <span style="color: rgb(26, 99, 169);">**Ship**</span>
