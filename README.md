@@ -171,7 +171,7 @@ Esta línea contiene un 1, seguido id del puerto en el que está el contenedor, 
 Los tipos válidos son `B`, `R` y `L`. `R` indica que es un contenedor refrigerado, mientras que `L` indica que es un contenedor líquido. Caso espacial es `B`, el tipo de contenedor que se creará dependerá del peso del contenedor. Si es peso es menor o igual a 3000, se crea un contenedor ligero; si es mayo, se crea un contenedor pesado. Toma en cuenta que el identificador del contenedor será el orden de creación. Por ejemplo, el primer contenedor creado debe tener Id 0 y debe colocarse en la posición 0 del vector.
 
 ##### <span style="color: rgb(26, 99, 169);">**2. Creando una nave**</span>
-Esta línea contiene un 2, seguido del identificador del puerto en que se encuentra la nave, el peso total que puede llevar la nave, en número máximo de contenedores, de contenedores pesados, refrigerados y líquidos que la nave puede llevar, así como el consumo de combustible por kilómetro.
+Esta línea contiene un 2, seguido del identificador del puerto en que se encuentra la nave, el peso total que puede llevar la nave, en número máximo de contenedores, de contenedores pesados, refrigerados y líquidos que la nave puede llevar, así como el consumo de combustible por kilómetro. Recuerda agregar esta nueva nave al puerto correspondiente.
 ```
 2 <idPort> <totalWeight> <maxNumberOfAllContainers> <maxNumberOfHeavyContainers> <maxNumberOfRefrigeratedContainers> <maxNumberOfLiquidContainers> <fuelConsumptionPerKM>
 ```
